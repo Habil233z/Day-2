@@ -21,6 +21,13 @@ body {
     margin-right: auto;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
 ul {
     margin-right: 40px;
 }
@@ -30,16 +37,16 @@ li {
 }
 
 input {
-    height: 30px;
+    height: 40px;
     width: 100%;
 }
 
 #message {
-    height: 100px;
+    height: 100%;
 }
 
-button {
+#sendButton {
     height: 30px;
     width: 60px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
