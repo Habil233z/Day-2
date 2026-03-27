@@ -48,3 +48,14 @@ a:link {
 a:visited {
     color: black;
 }
+
+.lowerArea {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30%;
+}
+
+.lowRight {
+    margin-left: 20px;
+    
+}
