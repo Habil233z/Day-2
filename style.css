@@ -1,0 +1,34 @@
+img {
+    height: 300px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #DFD0B8;
+    border: 10px solid #948979;
+}
+
+#card{
+    border: 3px solid black;
+}
+
+.pContainer {
+    margin: 20px;
+}
+
+#contactMeButton {
+    background-color: #948979;
+    border: 2px solid black;
+}
