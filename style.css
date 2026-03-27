@@ -32,3 +32,19 @@ body {
     background-color: #948979;
     border: 2px solid black;
 }
+
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 200px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
