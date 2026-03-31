@@ -21,8 +21,31 @@ body {
     border: 10px solid #948979;
 }
 
+.formProjectContainer {
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    background-color: #DFD0B8;
+    border: 10px solid #948979;
+}
+
+.myProjectContainer {
+    height: 80%;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    background-color: #DFD0B8;
+    border: 10px solid #948979;
+}
+
 #card{
     border: 3px solid black;
+    margin-left: 5%;
 }
 
 .pContainer {
@@ -53,11 +76,12 @@ a:visited {
 .lowerArea {
     display: flex;
     flex-direction: row;
-    margin-right: 30%;
+    width: 100%;
 }
 
 .lowRight {
     margin-left: 20px;
+    margin-right: 20px;
     
 }
 
@@ -72,3 +96,21 @@ a:visited {
     background-color: #948979;
     border-top: 5px solid #393E46;
 }
+
+.addProjectButtonArea {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 30%;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#myProjecth1 {
+    justify-self: center;
+}
+
+#containerArea {
+    display: flex;
+    justify-content: space-between;
+}
+
