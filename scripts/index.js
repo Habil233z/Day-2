@@ -48,15 +48,17 @@ form.addEventListener("submit", function(event){
 
     const name = document.getElementById("projectName").value;
     const description = document.getElementById("projectDescription").value;
-    const img = document.getElementById("projectImage").value;
+    const img = document.getElementById("projectImage").files[0];
 
-    console.log(img)
+    const projectImg = URL.createObjectURL(img)
+
+    console.log(projectImg)
 
     const newProject = {
         id: projects.length +1,
         name: name,
         description: description,
-        img: img
+        img: projectImg
     }
 
     projects.push(newProject);
