@@ -6,12 +6,14 @@ const projects = [
     {
         id:1,
         name: "placeholder 1",
-        description: "wadhawjwjadhjkawhjdhkawjhdkjhwashduiwhaduaw"
+        description: "wadhawjwjadhjkawhjdhkawjhdkjhwashduiwhaduaw",
+        img: "../src/Img_1.jpg"
     },
     {
         id:2,
         name: "placeholder 2",
-        description: "awdawudhauiwhduiawhuidhuawduiawiudhjiawjdioawiodjhioawhdioawh"
+        description: "awdawudhauiwhduiawhuidhuawduiawiudhjiawjdioawiodjhioawhdioawh",
+        img: "../src/Img_2.jpg"
     },
 ];
 
@@ -25,7 +27,7 @@ function renderProjects() {
         
         projectsHTML += `
         <div class="card" id="card" style="width: 18rem;">
-              <img class="card-img-top" src="" alt="Card image cap">
+              <img class="card-img-top" src="${project.img}" alt="${project.img}">
               <div class="card-body">
                   <h5 class="card-title">${project.name}</h5>
                   <p class="card-text">${project.description}</p>
@@ -46,11 +48,15 @@ form.addEventListener("submit", function(event){
 
     const name = document.getElementById("projectName").value;
     const description = document.getElementById("projectDescription").value;
+    const img = document.getElementById("projectImage").value;
+
+    console.log(img)
 
     const newProject = {
         id: projects.length +1,
         name: name,
         description: description,
+        img: img
     }
 
     projects.push(newProject);

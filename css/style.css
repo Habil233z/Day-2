@@ -114,3 +114,32 @@ a:visited {
     justify-content: space-between;
 }
 
+.backButton {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#myProjectForm {
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+#projectName {
+    width: 100%;
+    height: 50px;
+}
+
+#projectDescription {
+    width: 100%;
+    height: 300px;
+}
+
+#submitButton {
+    margin-top: 50px;
+}
+
+#containerArea {
+    margin-top: 50px;
+    justify-content: center;
+    margin-right: 5%;
+}
